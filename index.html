@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/5c19fa23f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="Chelaulau_Rajae_2_css_022022/normalize.css" />
+    <link rel="stylesheet" href="Chelaulau_Rajae_2_css_022022/style.css" />
+    <!--ViewPort-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Nom de la page web-->
+    <title>Booki</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="menu">
+        <img
+          src="Chelaulau_Rajae_3_images_022022/logo/Booki@3x.png"
+          id="logo"
+          alt="Logo-Booki"
+        />
+        <ul>
+          <li>
+            <a href="#ancre_hebergement">Hébergement</a>
+          </li>
+          <li>
+            <a href="#ancre_activite">Activités</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="titre">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
+    </header>
+    <!--Main-->
+    <main>
+      <!--Barre de recherche-->
+      <div class="barre_de_recherche">
+        <i class="fa-solid fa-location-dot"></i>
+        <form>
+          <input
+            type="text"
+            name="champ_recherche"
+            id="champ_recherche"
+            placeholder="Marseille, France"
+          />
+          <input
+            type="submit"
+            name="send"
+            value="Rechercher"
+            id="btn_recherche"
+            disabled=""
+          />
+        </form>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <!--Filtres-->
+      <div class="filtres">
+        <p class="filtre_texte">Filtres</p>
+        <div class="buttons_filtres">
+          <div class="button">
+            <i class="fa-solid fa-money-bill-1-wave"></i>
+            <a href="#">Économique</a>
+          </div>
+          <div class="button">
+            <i class="fa-solid fa-child-reaching"></i>
+            <a href="#">Familial</a>
+          </div>
+          <div class="button">
+            <i class="fa-solid fa-heart"></i>
+            <a href="#">Romantique</a>
+          </div>
+          <div class="button">
+            <i class="fa-solid fa-dog"></i>
+            <a href="#">Animaux autorisés</a>
+          </div>
+        </div>
+      </div>
+      <!--Informations-->
+      <div class="info">
+        <i class="fa-solid fa-info"></i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+      <!--Hébergements + Populaires-->
+      <section id="ancre_hebergement">
+        <!--Hébergements-->
+        <div class="hebergement">
+          <h2>Hébergements à Marseille</h2>
+          <!--Cards hôtel-->
+          <div class="box_article">
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                  class="float"
+                  alt="auberge la Cannebière"
+                />
+                <div class="info_hotel">
+                  <h3>Auberge La Cannebière</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>25€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                  class="float"
+                  alt="hotel du Port"
+                />
+                <div class="info_hotel">
+                  <h3>Hotel du Port</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>52€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                  class="float"
+                  alt="hotel les mouettes"
+                />
+                <div class="info_hotel">
+                  <h3>Hôtel Les mouettes</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>76€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                  class="float"
+                  alt="hotel de la mer"
+                />
+                <div class="info_hotel">
+                  <h3>Hôtel de la mer</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>46€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                  class="float"
+                  alt="auberge le panier"
+                />
+                <div class="info_hotel">
+                  <h3>Auberge le Panier</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>23€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                  class="float"
+                  alt="hotel chez amina"
+                />
+                <div class="info_hotel">
+                  <h3>Hotel chez Amina</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>96€</strong>
+                  </p>
+                  <div class="note">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+          <!--Afficher plus-->
+          <a href="#"><h3 class="plus">Afficher plus</h3></a>
+        </div>
+        <!--Populaires-->
+        <div class="populaire">
+          <div class="titre_pop">
+            <h2>Les plus populaires</h2>
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <!--Cards Hôtel-->
+          <div class="pop">
+            <a href="#">
+              <article class="hotel_pop">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  class="float1"
+                  alt="hotel le soleil du matin"
+                />
+                <div class="info_pop">
+                  <h3>Hôtel le Soleil du Matin</h3>
+                  <p>
+                    Nuit à partir
+                    <strong>128€</strong>
+                  </p>
+                  <div class="note_pop">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel_pop">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  class="float1"
+                  alt="au coeur de l eau chambre d hote"
+                />
+                <div class="info_pop">
+                  <h3>Au coeur de l'eau Chambre d'hôte</h3>
+                  <p>
+                    Nuit à partir
+                    <strong>71€</strong>
+                  </p>
+                  <div class="note_pop">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+            <a href="#">
+              <article class="hotel_pop">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                  class="float1"
+                  alt="hotel tout bleu et blanc"
+                />
+                <div class="info_pop">
+                  <h3>Hôtel Tout Bleu et Blanc</h3>
+                  <p>
+                    Nuit à partir de
+                    <strong>68€</strong>
+                  </p>
+                  <div class="note_pop">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star etoile"></i>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--Activités à Marseille-->
+      <section id="ancre_activite">
+        <h2>Activités à Marseille</h2>
+        <!--Cards Activités-->
+        <div class="box_activite">
+          <div class="seul">
+            <a href="#" class="activite">
+              <article class="port">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                  class="float2"
+                  alt="le port"
+                />
+                <h3>Vieux Port</h3>
+              </article>
+            </a>
+          </div>
+          <div class="double">
+            <a href="#" class="activite">
+              <article class="fort">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  class="float3"
+                  alt="fort"
+                />
+                <h3>Fort de Pomègues</h3>
+              </article>
+            </a>
+            <a href="#" class="activite">
+              <article class="iles">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  class="float3"
+                  alt="iles"
+                />
+                <h3>Îles du Frioul</h3>
+              </article>
+            </a>
+          </div>
+          <div class="seul">
+            <a href="#" class="activite">
+              <article class="national">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                  class="float2"
+                  alt="national"
+                />
+                <h3>Parc National des Calanques</h3>
+              </article>
+            </a>
+          </div>
+          <div class="double">
+            <a href="#" class="activite">
+              <article class="notre_dame">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  class="float3"
+                  alt="notre dame"
+                />
+                <h3>Notre-Dame-de-la-Garde</h3>
+              </article>
+            </a>
+            <a href="#" class="activite">
+              <article class="longchamp">
+                <img
+                  src="Chelaulau_Rajae_3_images_022022/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  class="float3"
+                  alt="longchamp"
+                />
+                <h3>Parc Longchamp</h3>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div class="liste">
+        <h3>A Propos</h3>
+        <ul>
+          <li>
+            <a href="#">Fonctionnement du site</a>
+          </li>
+          <li>
+            <a href="#">Conditions générales de vente</a>
+          </li>
+          <li>
+            <a href="#">Données et confidentialité</a>
+          </li>
+        </ul>
+      </div>
+      <div class="liste">
+        <h3>Nos Hébergements</h3>
+        <ul>
+          <li>
+            <a href="#">Charte qualité</a>
+          </li>
+          <li>
+            <a href="#">Soumettre votre hôtel</a>
+          </li>
+        </ul>
+      </div>
+      <div class="liste">
+        <h3>Assistance</h3>
+        <ul>
+          <li>
+            <a href="#">Centre d'aide</a>
+          </li>
+          <li>
+            <a href="#">Nous</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
